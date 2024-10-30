@@ -47,28 +47,28 @@ h1{
 .cards{
     margin-block:50px;
     margin-inline:auto;
-    border-radius: 20%;
+    border-radius: 45px;
     display:flex;
     flex-direction: column;
     max-width: 300px;
     border:none;
     background-color: #e9d135;
-    
+    overflow: hidden;
 
 }
 
 .cards .card-content{
     text-align: center;
+    padding-block: 10px;
 }
 
-.card-content img{
-    object-fit: contain;
-}
+
 
 button{
     background-color: lightyellow;
     border:none;
     border-radius: 20px;
     padding: 5px;
+    margin: 5px;
     
 }
