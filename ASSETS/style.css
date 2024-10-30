@@ -4,7 +4,7 @@ body{
 }
 
 .menu{
-    background-color: #e9d135;
+    background-color: #d1a03fc7;
     display:flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,12 +15,17 @@ body{
 
 li{
     list-style-type: none;
-    background-color: rgb(255, 98, 0) ;
+    background-color: #f5e616 ;
     margin: 5px;
     border-radius: 16px;
     padding: 10px;
     text-align: center;
 
+}
+
+li:first-of-type{
+    text-align: left;
+   
 }
 
 h1{
@@ -31,7 +36,7 @@ h1{
 .cards{
     margin-block:50px;
     margin-inline:auto;
-    border-radius: 30px;
+    border-radius: 20%;
     display:flex;
     flex-direction: column;
     max-width: 300px;
@@ -43,4 +48,17 @@ h1{
 
 .cards .card-content{
     text-align: center;
+}
+
+.card-content img{
+    object-fit: contain;
+    border-radius:;
+}
+
+button{
+    background-color: lightyellow;
+    border:none;
+    border-radius: 20px;
+    padding: 5px;
+    
 }
