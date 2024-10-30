@@ -1,0 +1,46 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightyellow;
+}
+
+.menu{
+    background-color: #e9d135;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding-block: 20px;
+}
+
+li{
+    list-style-type: none;
+    background-color: rgb(255, 98, 0) ;
+    margin: 5px;
+    border-radius: 16px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+.cards{
+    margin-block:50px;
+    margin-inline:auto;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    border:none;
+    background-color: #e9d135;
+    
+
+}
+
+.cards .card-content{
+    text-align: center;
+}
